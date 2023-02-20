@@ -1,7 +1,25 @@
 package org.extendedComposition;
 
 public class Dimension {
-    int high; //  (przykład: 75, 145, 240)
+
+    int high;
     int width;
     int trunkCapacity;
+    public Dimension(int high, int width, int trunkCapacity) {
+        this.high = high;
+        this.width = width;
+        this.trunkCapacity = trunkCapacity;
+    }
+
+    public int getHigh() {
+        return high;
+    }
+
+    public int getWidth() {
+        return width;
+    }
+
+    public int getTrunkCapacity() {
+        return trunkCapacity;
+    }
 }
